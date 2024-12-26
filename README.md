@@ -1,2 +1,3 @@
-# Health-care-app-testing
-This repository contains manual testing documentation for a fictional healthcare application
+
+# Manual Testing: Healthcare App  
+This project demonstrates manual testing practices for a fictional healthcare app, including a test plan, test cases, and bug reports.
