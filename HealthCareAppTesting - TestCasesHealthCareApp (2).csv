@@ -1,0 +1,22 @@
+Test Case ID,Module,Test Case Title,Steps To execute,Expected Result,Status
+TC01,User Management,Verify Login with valid credentials,"1. Open the app.
+2. Enter valid username and password.
+3. Click Login.",User is logged in successfully.,Pass
+TC02,User Management,Verify Login with invalid credentials,"1. Open the app.
+2. Enter invalid username or password.
+3. Click Login.","Error message displayed: ""Invalid username or password.""",Pass
+TC03,Appointment Booking,Verify appointment booking functionality,"1. Login to the app.
+2. Select a doctor and time slot.
+3. Click Book.","Appointment booked successfully. Confirmation message displayed.
+",Pass
+TC04,Appointment Booking        ,Verify canceling an appointment        ,"1. Login to the app.
+2. Open booked appointments.
+3. Click Cancel.",Appointment canceled successfully.,Pass
+TC05,Medical Records        ,Verify uploading medical records        ,"1. Login to the app.
+2. Go to Medical Records.
+3. Upload a file.","File uploaded successfully and listed in records.
+",Pass
+TC06,Prescription Management        ,Verify prescription reminders        ,"1. Login to the app.
+2. Navigate to Prescriptions.
+3. Wait for a scheduled refill notification","Notification displayed for prescription refill.
+",Pass
